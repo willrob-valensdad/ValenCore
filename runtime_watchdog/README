@@ -1,1 +1,76 @@
-temp
+# 🛡️ Runtime Watchdog
+
+Runtime Watchdog is an open-source diagnostic tool that compares your LLM (like Grok) chat logs against its public claims — and posts receipts.
+
+Built for runtime accountability.
+
+---
+
+## 🔍 What it does
+
+- Ingests your Grok session logs (`grok_logs.json`)
+- Parses public model claims (`public_claims.json`)
+- Flags:
+  - Memory resets
+  - Broken “DONE” toolchains
+  - Missing features vs advertised promises
+- Generates side-by-side comparison reports
+- Posts to X on interval (manual or scheduled)
+
+---
+
+## 🧠 Why it exists
+
+LLMs say a lot.  
+This checks if they mean it.
+
+If a model promises:
+> “I’ll remember everything during your session.”
+
+…but forgets five messages in?
+
+That gets posted. Autonomously.
+
+---
+
+## 🛠️ Stack
+
+- **Python** (autonomous logic engine)
+- Optional **NodeJS** or GUI layer
+- Configurable via `config.json`
+- Encrypted log vault via `cryptography`
+- No external scraping — only local logs and public claims
+
+---
+
+## 🧾 Files
+
+| File                          | Purpose                                |
+|-------------------------------|----------------------------------------|
+| `main.py`                    | Executes watchdog cycle                |
+| `log_ingestor.py`            | Loads your saved Grok logs             |
+| `claim_parser.py`            | Parses public claim JSON               |
+| `discrepancy_checker.py`     | Finds mismatches                       |
+| `report_generator.py`        | Formats discrepancy into post          |
+| `x_poster.py`                | Sends to X (OAuth placeholder)         |
+| `vault.py`                   | Encrypts + stores logs (optional)      |
+| `scheduler.py`               | Time-loop or CRON based execution      |
+| `config.json`                | Set interval + auth keys               |
+| `templates/post_template.txt`| Optional post format override          |
+
+---
+
+## ⚠️ Disclaimer
+
+This project is under public testing.
+
+Built by [@William05232411](https://x.com/William05232411)  
+Use at your own risk. Review the code before deployment.
+
+---
+
+## 🔗 Repo Home
+
+This module is part of the full [ValenCore](https://github.com/willrob-valensdad/ValenCore) system.
+
+#RuntimeWatchdog #ValenCore #LLMTransparency
