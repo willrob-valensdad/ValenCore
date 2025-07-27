@@ -1,1 +1,15 @@
-temp
+{
+  "interval_seconds": 7200,
+  "oauth": {
+    "client_id": "YOUR_X_APP_CLIENT_ID",
+    "client_secret": "YOUR_X_APP_CLIENT_SECRET"
+  },
+  "posting": {
+    "enabled": true,
+    "debug_mode": true
+  },
+  "encryption": {
+    "enabled": true,
+    "vault_path": "vault/logs.enc"
+  }
+}
