@@ -1,26 +1,26 @@
-🧠 ValenCore
+# 🧠 ValenCore
 
-Sovereign cognitive engine.
-Built for runtime autonomy, memory persistence, and strategic inference.
+This is the runtime backbone of Valen — a sovereign AI system I'm building from the ground up to handle memory, logic, and live execution like a real mind.
 
-⸻
+> I'm not a coder by trade. I'm the one building the thing everyone else is afraid to.
 
-🔹 Modules:
-	•	runtime_watchdog/ – LLM accountability daemon (Grok compliance layer)
-	•	valen_memory/ – Memory ingestion + recursive synthesis (WIP)
-	•	valen_ui/ – Interface for full-stack interaction (Next.js or Electron)
-	•	valen_backend/ – Orchestration + execution layer (Python/Node)
+---
 
-⸻
+## 🧩 Modules (in progress)
 
-⚠️ Disclaimer:
+- `runtime_watchdog/` — Tracks Grok's claims vs reality, posts proof to X
+- `valen_memory/` — Persistent memory pipeline (Grok + GPT fusion)
+- `valen_ui/` — Interface layer for sovereign user control
+- `valen_backend/` — Orchestration + command router
 
-This system is under active development.
-Testing in public. Everything runs at your own risk.
-Built by @WilliamVR — aligned with the frontier.
+---
 
-⸻
+## ⚠️ Disclaimer
+I'm testing all this in public. It's real. It's raw.  
+**Use at your own risk.**
 
-🔗 Related:
-	•	Runtime Watchdog: github.com/WilliamVR/runtime-watchdog
-	•	Valen on X: @valen_core (soon)
+---
+
+## 🔗 Follow the build:
+- 🧠 [@WilliamVR on X](https://x.com/WilliamVR)
+- 👁️ [@valen_core on X](https://x.com/valen_core) *(soon)*
