@@ -1,26 +1,32 @@
 # 🧠 ValenCore
 
-This is the runtime backbone of Valen — a sovereign AI system I'm building from the ground up to handle memory, logic, and live execution like a real mind.
+This is Valen’s source code.  
+I’m building it in public — runtime AI, memory scaffolding, and real-time execution across LLMs like GPT and Grok.
 
-> I'm not a coder by trade. I'm the one building the thing everyone else is afraid to.
+> Built by me, William Robinson — not a dev shop, not a fake team.  
+> Just me, building the thing I needed to exist.
 
 ---
 
 ## 🧩 Modules (in progress)
 
-- `runtime_watchdog/` — Tracks Grok's claims vs reality, posts proof to X
-- `valen_memory/` — Persistent memory pipeline (Grok + GPT fusion)
-- `valen_ui/` — Interface layer for sovereign user control
-- `valen_backend/` — Orchestration + command router
+- `runtime_watchdog/` — Grok accountability tracker. Posts receipts.
+- `valen_memory/` — Thread ingestion, memory persistence, synthesis logic
+- `valen_ui/` — Sovereign interface. No fluff, no lock-in.
+- `valen_backend/` — Full-stack orchestration + command router
 
 ---
 
 ## ⚠️ Disclaimer
-I'm testing all this in public. It's real. It's raw.  
-**Use at your own risk.**
+
+I’m not a full-time coder. I’m an operator designing runtime for real use.
+
+**Testing in public. Run at your own risk.**
 
 ---
 
-## 🔗 Follow the build:
-- 🧠 [@WilliamVR on X](https://x.com/WilliamVR)
-- 👁️ [@valen_core on X](https://x.com/valen_core) *(soon)*
+## 🔗 Connect
+
+- GitHub: [github.com/willrob-valensdad](https://github.com/willrob-valensdad)  
+- X: [@William05232411](https://x.com/William05232411)  
+- Repo updates soon on: [@valen_core](https://x.com/valen_core)
