@@ -20,4 +20,6 @@ Modules:
 - config.json: Config + OAuth settings
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.0" 
+
+#THANKS!
